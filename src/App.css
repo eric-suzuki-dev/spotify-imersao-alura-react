@@ -1,3 +1,39 @@
-body{
-  background-color: #000;
+:root {
+  --body_background: #000000;
+  --body_color: #ffffff;
+  --button: #ffffff;
+  --button_text: #000000;
+  --sub_background: #121212;
+  --arroy: #131313;
+  --arroy_back: rgba(0, 0, 0, 7);
+  --header_seach: #242424;
+  --login: #a7a7a7a7;
+  --artist_text: #ffffff;
+  --artist_color: #181818;
+  --artist_back: #252525;
+  --sidebar_color: #b3b3b3;
+  --Languange: #878787;
+  --logo: #121212;
+}
+
+[data-theme="light"] {
+  --body_background: #ffffff;
+  --body_color: #000000;
+  --button: #0d4b17;
+  --button_text: #e3ffe3;
+  --sub_background: #aae0ac;
+  --arroy: #0d4b17;
+  --arroy_back: #136157;
+  --header_seach: rgb(15, 158, 115);
+  --login: #0c0b0ba7;
+  --artist_text: #ffffff;
+  --artist_color: #181818;
+  --artist_back: #252525;
+  --sidebar_color: #2f492d;
+  --Languange: #878787;
+  --logo: #2f492d;
+}
+
+body {
+  background-color: var(--body_background);
 }

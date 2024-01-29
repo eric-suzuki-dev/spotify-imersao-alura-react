@@ -5,7 +5,7 @@
     padding: 16px;
     margin: 15px;
     border-radius: 8px;
-    background-color: #121212;
+    background-color: var(--sub_background);
     padding: 12px;
     max-width: 80vw;
     margin-left: 330px;
@@ -29,8 +29,8 @@
     justify-content: center;
     width: 32px;
     height: 32px;
-    background: #131313;
-    background-color:var(--bg-arrow-color);
+    background: var(--arroy);
+    background-color:var(--arroy_back);
     border-radius: 50%;
     border: none;
     cursor: pointer;
@@ -47,7 +47,7 @@
     width: 364px;
     height: 48px;
     margin-left: 8px;
-    background-color: #242424;
+    background-color:var(--header_seach);
     border-radius: 500px;
     border: 1px solid transparent;
   }
@@ -62,7 +62,7 @@
     background: transparent;
     border: none;
     padding: 0px 100px 0 12px;
-    color: #fff;
+    color: var(--body_color);
     text-overflow: ellipsis;
     overflow:hidden;
     white-space: nowrap;
@@ -70,7 +70,7 @@
   }
   
   .header__login .subscribe {
-    color: #a7a7a7;
+    color:var(--login);
     font-size: 16px;
     font-weight: 700;
     background-color: transparent;
@@ -79,9 +79,10 @@
   }
   
   .header__login .login {
+    background: var(--button);
     width: 100px;
     height: 48px;
-    color: #000;
+    color: var(--button_text);
     font-size: 16px;
     font-weight: 700;
     border-radius: 40px;
@@ -89,12 +90,12 @@
   }
 
   .header__search:hover {
-    border: 1px solid #fff;
+    border: 1px solid var(--body_color);
   }
   
   .header__login .subscribe:hover {
     transform: scale(1.04);
-    color: #fff;
+    color: var(--body_color);
   }
   
   .header__login .login:hover {

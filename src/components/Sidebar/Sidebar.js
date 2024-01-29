@@ -2,6 +2,7 @@ import './Sidebar.css';
 import logoSpotify from '../../assets/icons/logo-spotify.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome, faSearch, faGlobe } from '@fortawesome/free-solid-svg-icons';
+import DarkMode from '../DarkMode/DarkMode';
 
 const Sidebar = () => {
     return (
@@ -53,6 +54,7 @@ const Sidebar = () => {
                         <span>Português do Brasil</span>
                     </button>
                 </div>
+                <DarkMode />
             </div>
         </div>
     )
