@@ -3,6 +3,8 @@ import './Header.css';
 import smallLeft from '../../assets/icons/small-left.png';
 import smallRight from '../../assets/icons/small-right.png';
 import search from '../../assets/icons/search.png'
+// import DarkMode from './components/DarkMode/DarkMode';
+
 const Header = () => {
     return (
         <nav className="header__navigation">
@@ -24,8 +26,9 @@ const Header = () => {
                 <button className="subscribe">Inscreva-se</button>
                 <button className="login">Entrar</button>
             </div>
+            {/* <DarkMode /> */}
         </nav>
     )
 }
 
-export default Header
+export default Header;
